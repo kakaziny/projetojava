@@ -1,0 +1,149 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #header, #footer {
+    background-color: #eeff00;
+  }
+  
+  .primeira {
+    background-color: #ffffff;
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    flex-wrap: wrap;
+  }
+  
+  
+  .nome {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+  }
+  
+  .item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+  }
+  
+  .primeira .titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+  
+  }
+  
+  .primeira .texto, .news .texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  
+  .caixas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top:-35px ;
+  }
+  
+  .caixas .imagem img {
+    width: 60px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  
+  .caixa {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 25px;
+    width: 200px;    
+    background-color: rgb(255, 255, 255);
+    height: 270px;
+  
+  }
+  
+  .planos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 500px;
+  }
+  
+  .plano {
+    background-color: #edecec; 
+    text-align: center;
+    margin: 0 40px;
+    padding: 30px 20px ;
+  }
+  
+  .plano-tipo, .preco, .titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 0;
+  }
+  
+  .beneficio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 20px;
+  }
+  
+  .linha-le {
+    height: 20px;
+    margin: 20px 0;
+    background-color: #FF912D;
+    
+    }
+  
+  .linha-la {
+    height: 20px;
+    margin: 20px -20px;
+    background-color: #FF912D;
+    }
+  
+  .conteudo .texto {
+    font: 400 20px 'Lucida', sans-serif;
+    margin-bottom: 25px;
+    text-align: justify;
+  }
+  
+  #footer .container{
+    height: 200px;
+  }
+  
+  #footer .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #footer {
+    margin-top: 50px;
+  }
+  
+  input, button {
+    padding: 5px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .caixa:hover{
+    box-shadow: 0px 0px 15px 10px #5e5e5e;
+    transition:0.3s ease-in;
+    
+  }
